@@ -1,5 +1,5 @@
 {
-  "name": "ethers-multicall",
+  "name": "@premia/ethers-multicall",
   "version": "0.2.1",
   "description": "Make multiple Ethereum network requests in a single HTTP query. ethcall for ethers v5.",
   "main": "dist/index.js",
@@ -36,10 +36,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cavanmflynn/ethers-multicall.git"
+    "url": "git+https://github.com/Premia-Frontend/premia-ethers-multicall.git"
   },
   "bugs": {
-    "url": "https://github.com/cavanmflynn/ethers-multicall/issues"
+    "url": "https://github.com/Premia-Frontend/premia-ethers-multicall/issues"
   },
   "homepage": "https://github.com/cavanmflynn/ethers-multicall#readme"
 }
