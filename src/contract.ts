@@ -21,10 +21,14 @@ export class Contract {
   constructor(address: string, abi: JsonFragment[] | string[] | Fragment[]) {
     this._address = address;
 
-    this._abi = toFragment(abi);
+    this._abi = toFragment(abi).filter((item) => item !== null);
 
-    this._functions = this._abi.filter(x => x.type === 'function').map(x => FunctionFragment.from(x));
-    const callFunctions = this._functions.filter(x => x.stateMutability === 'pure' || x.stateMutability === 'view');
+    this._functions = this._abi
+      .filter((x) => x.type === 'function')
+      .map((x) => FunctionFragment.from(x));
+    const callFunctions = this._functions.filter(
+      (x) => x.stateMutability === 'pure' || x.stateMutability === 'view'
+    );
 
     for (const callFunction of callFunctions) {
       const { name } = callFunction;
@@ -39,14 +43,16 @@ export class Contract {
 }
 
 function toFragment(abi: JsonFragment[] | string[] | Fragment[]): Fragment[] {
-  return abi.map((item: JsonFragment | string | Fragment) => utils.Fragment.from(item));
+  return abi.map((item: JsonFragment | string | Fragment) =>
+    utils.Fragment.from(item)
+  );
 }
 
 function makeCallFunction(contract: Contract, name: string) {
   return (...params: any[]) => {
     const { address } = contract;
-    const { inputs } = contract.functions.find(f => f.name === name);
-    const { outputs } = contract.functions.find(f => f.name === name);
+    const { inputs } = contract.functions.find((f) => f.name === name);
+    const { outputs } = contract.functions.find((f) => f.name === name);
     return {
       contract: {
         address,
