@@ -36,10 +36,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Premia-Frontend/premia-ethers-multicall.git"
+    "url": "git+https://github.com/Premia-Frontend/ethers-multicall.git"
   },
   "bugs": {
-    "url": "https://github.com/Premia-Frontend/premia-ethers-multicall/issues"
+    "url": "https://github.com/Premia-Frontend/ethers-multicall/issues"
   },
   "homepage": "https://github.com/cavanmflynn/ethers-multicall#readme"
 }
