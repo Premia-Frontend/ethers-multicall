@@ -1,5 +1,5 @@
 import { ethers } from 'ethers';
-import { ContractCall, all, getMulticallContract } from './call';
+import { all, ContractCall, getMulticallContract } from './call';
 import { Multicall } from './typechain';
 
 export class Provider {

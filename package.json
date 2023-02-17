@@ -1,6 +1,6 @@
 {
   "name": "@premia/ethers-multicall",
-  "version": "0.2.7",
+  "version": "1.0.0-beta.2",
   "description": "Make multiple Ethereum network requests in a single HTTP query. ethcall for ethers v5.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,8 +8,8 @@
     "test": "mocha -r @ts-tools/node \"test/**/*.test.ts\"",
     "build": "tsc",
     "lint": "tslint -c tslint.json '{src,test}/**/*.ts' --fix",
-    "prepublishOnly": "yarn build && yarn test && yarn lint",
-    "postinstall": "typechain --target ethers-v5 --out-dir ./src/typechain \"./src/abi/*.json\""
+    "prepublishOnly": "yarn typechain && yarn build && yarn lint",
+    "typechain": "typechain --target ethers-v5 --out-dir ./src/typechain \"./src/abi/*.json\""
   },
   "keywords": [
     "ethers",

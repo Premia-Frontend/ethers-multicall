@@ -1,16 +1,21 @@
-import { BigNumber, Contract, ethers } from 'ethers';
+import { BigNumber, ethers } from 'ethers';
 import { FunctionFragment } from 'ethers/lib/utils';
 import { Multicall, Multicall__factory } from './typechain';
 
 // TODO: Figure out a more elegant way to get callData and fragment from a contract call
 
-export interface ContractCall<T extends Contract = Contract> {
+export interface ContractLike {
+  address: string;
+  getFunction(name: string): FunctionFragment;
+}
+
+export interface ContractCall<T extends ContractLike = ContractLike> {
   contract: T;
   fragment: FunctionFragment | string;
   callData: string;
 }
 
-export function encodeCallData<T extends Contract = Contract>(
+export function encodeCallData<T extends ContractLike = ContractLike>(
   contract: T,
   fragment: FunctionFragment | string,
   args: any[],

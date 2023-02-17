@@ -1,11 +1,11 @@
+import { ContractCall, encodeCallData } from './call';
 import {
-  Provider,
-  multicallAddresses,
-  setMulticallAddress,
   getAddress,
   getAddressForChainId,
+  multicallAddresses,
+  Provider,
+  setMulticallAddress,
 } from './provider';
-import { ContractCall, getCallData } from './call';
 
 export {
   Provider,
@@ -14,7 +14,7 @@ export {
   setMulticallAddress,
   getAddress,
   getAddressForChainId,
-  getCallData,
+  encodeCallData,
 };
 export default {
   Provider,
@@ -22,5 +22,5 @@ export default {
   multicallAddresses,
   getAddress,
   getAddressForChainId,
-  getCallData,
+  encodeCallData,
 };
