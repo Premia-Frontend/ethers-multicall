@@ -3,13 +3,12 @@
     "module": "commonjs",
     "target": "es5",
     "lib": ["es2015"],
+    "moduleResolution": "node16",
     "declaration": true,
     "outDir": "dist",
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "skipLibCheck": true
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"]
 }

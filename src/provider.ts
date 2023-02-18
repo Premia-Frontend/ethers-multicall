@@ -3,11 +3,11 @@ import { all, ContractCall, getMulticallContract } from './call';
 import { Multicall } from './typechain';
 
 export class Provider {
-  private _provider: ethers.providers.Provider;
+  private _provider: ethers.Provider;
   private _multicallAddress: string;
   private _multicallContract: Multicall;
 
-  constructor(provider: ethers.providers.Provider, chainId?: number) {
+  constructor(provider: ethers.Provider, chainId?: number) {
     this._provider = provider;
 
     if (!chainId) {
@@ -70,7 +70,7 @@ export function getAddressForChainId(chainId: number) {
   return multicallAddresses[chainId];
 }
 
-export async function getAddress(provider: ethers.providers.Provider) {
+export async function getAddress(provider: ethers.Provider) {
   const { chainId } = await provider.getNetwork();
-  return getAddressForChainId(chainId);
+  return getAddressForChainId(Number(chainId));
 }

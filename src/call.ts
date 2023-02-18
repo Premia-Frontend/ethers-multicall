@@ -1,11 +1,16 @@
-import { BigNumber, ethers } from 'ethers';
-import { FunctionFragment } from 'ethers/lib/utils';
+import { ethers, FunctionFragment, Provider } from 'ethers';
 import { Multicall, Multicall__factory } from './typechain';
 
 // TODO: Figure out a more elegant way to get callData and fragment from a contract call
 
 export interface ContractLike {
   address: string;
+  interface: {
+    encodeFunctionData(
+      fragment: FunctionFragment | string,
+      args: any[],
+    ): string;
+  };
   getFunction(name: string): FunctionFragment;
 }
 
@@ -20,24 +25,17 @@ export function encodeCallData<T extends ContractLike = ContractLike>(
   fragment: FunctionFragment | string,
   args: any[],
 ): string {
-  const abiCoder = new ethers.utils.AbiCoder();
-  const callData = abiCoder.encode(
-    typeof fragment === 'string'
-      ? contract.getFunction(fragment).inputs
-      : fragment.inputs,
-    args,
-  );
-  return callData;
+  return contract.interface.encodeFunctionData(fragment, args);
 }
 
 export async function all<T extends any[] = any[]>(
   calls: ContractCall[],
   multicallAddress: string,
-  provider: ethers.providers.Provider,
+  provider: Provider,
 ): Promise<T> {
   const multicall = getMulticallContract(provider, multicallAddress);
   const response: {
-    blockNumber: BigNumber;
+    blockNumber: bigint;
     returnData: string[];
   } = await multicall.aggregate(
     calls.map(call => ({
@@ -64,16 +62,16 @@ export async function all<T extends any[] = any[]>(
 }
 
 export function decodeCall(
-  outputs: ethers.utils.ParamType[],
-  data: ethers.utils.BytesLike,
+  outputs: readonly ethers.ParamType[],
+  data: ethers.BytesLike,
 ) {
-  const abiCoder = new ethers.utils.AbiCoder();
+  const abiCoder = new ethers.AbiCoder();
   const params = abiCoder.decode(outputs, data);
   return params;
 }
 
 export function getMulticallContract(
-  provider: ethers.providers.Provider,
+  provider: Provider,
   multicallAddress: string,
 ): Multicall {
   return Multicall__factory.connect(multicallAddress, provider);
