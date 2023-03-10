@@ -4,13 +4,13 @@ import { Multicall, Multicall__factory } from './typechain';
 // TODO: Figure out a more elegant way to get callData and fragment from a contract call
 
 export interface ContractLike {
-  address: string;
   interface: {
     encodeFunctionData(
       fragment: FunctionFragment | string,
       args: any[],
     ): string;
   };
+  getAddress(): Promise<string>;
   getFunction(name: string): FunctionFragment;
 }
 
@@ -39,7 +39,7 @@ export async function all<T extends any[] = any[]>(
     returnData: string[];
   } = await multicall.aggregate(
     calls.map(call => ({
-      target: call.contract.address,
+      target: call.contract.getAddress(),
       callData: call.callData,
     })),
   );

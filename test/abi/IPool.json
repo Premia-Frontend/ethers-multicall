@@ -1,0 +1,2226 @@
+[
+  {
+    "inputs": [],
+    "name": "ERC1155Base__ArrayLengthMismatch",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "ERC1155Base__BalanceQueryZeroAddress",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "ERC1155Base__BurnExceedsBalance",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "ERC1155Base__BurnFromZeroAddress",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "ERC1155Base__ERC1155ReceiverNotImplemented",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "ERC1155Base__ERC1155ReceiverRejected",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "ERC1155Base__MintToZeroAddress",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "ERC1155Base__NotOwnerOrApproved",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "ERC1155Base__SelfApproval",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "ERC1155Base__TransferExceedsBalance",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "ERC1155Base__TransferToZeroAddress",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__AboveMaxSlippage",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__AboveQuoteSize",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__InsufficientAskLiquidity",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__InsufficientBidLiquidity",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__InsufficientLiquidity",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__InvalidAssetUpdate",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__InvalidBelowPrice",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__InvalidQuoteCategoryNonce",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__InvalidQuoteSignature",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__InvalidQuoteTaker",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__InvalidRange",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__InvalidReconciliation",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__InvalidSwapTokenIn",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__InvalidSwapTokenOut",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__InvalidTransfer",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__LongOrShortMustBeZero",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__NegativeSpotPrice",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__NotAuthorized",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__NotEnoughSwapOutput",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__NotEnoughTokens",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__OppositeSides",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__OptionExpired",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__OptionNotExpired",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__OutOfBoundsPrice",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__PositionCantHoldLongAndShort",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__PositionDoesNotExist",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__QuoteExpired",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__QuoteOverfilled",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__TickDeltaNotZero",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__TickNotFound",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__TickOutOfRange",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__TickWidthInvalid",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pool__ZeroSize",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Position__InvalidOrderType",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Position__InvalidPositionUpdate",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Position__LowerGreaterOrEqualUpper",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pricing__PriceCannotBeComputedWithinTickRange",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pricing__PriceOutOfRange",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "Pricing__UpperNotGreaterThanLower",
+    "type": "error"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "owner",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "contractSize",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "fee",
+        "type": "uint256"
+      }
+    ],
+    "name": "Annihilate",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "approved",
+        "type": "bool"
+      }
+    ],
+    "name": "ApprovalForAll",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "provider",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes32",
+        "name": "tradeQuoteHash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "CancelTradeQuote",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "owner",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "tokenId",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "feesClaimed",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "lastFeeRate",
+        "type": "uint256"
+      }
+    ],
+    "name": "ClaimFees",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "owner",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "tokenId",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "collateral",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "longs",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "shorts",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "lastFeeRate",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "claimableFees",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "marketPrice",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "liquidityRate",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "currentTick",
+        "type": "uint256"
+      }
+    ],
+    "name": "Deposit",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "holder",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "contractSize",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "exerciseValue",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "spot",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "fee",
+        "type": "uint256"
+      }
+    ],
+    "name": "Exercise",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "tradeQuoteHash",
+        "type": "bytes32"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "provider",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "contractSize",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "int256",
+            "name": "collateral",
+            "type": "int256"
+          },
+          {
+            "internalType": "int256",
+            "name": "longs",
+            "type": "int256"
+          },
+          {
+            "internalType": "int256",
+            "name": "shorts",
+            "type": "int256"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct IPoolInternal.Delta",
+        "name": "deltaMaker",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "int256",
+            "name": "collateral",
+            "type": "int256"
+          },
+          {
+            "internalType": "int256",
+            "name": "longs",
+            "type": "int256"
+          },
+          {
+            "internalType": "int256",
+            "name": "shorts",
+            "type": "int256"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct IPoolInternal.Delta",
+        "name": "deltaTaker",
+        "type": "tuple"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "premium",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "takerFee",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "protocolFee",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "isBuy",
+        "type": "bool"
+      }
+    ],
+    "name": "FillQuote",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "provider",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "category",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newNonce",
+        "type": "uint256"
+      }
+    ],
+    "name": "IncreaseTradeQuoteCategoryNonce",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "contractSize",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "exerciseValue",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "spot",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "fee",
+        "type": "uint256"
+      }
+    ],
+    "name": "Settle",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "owner",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "tokenId",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "contractSize",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "collateral",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "exerciseValue",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "feesClaimed",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "spot",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "fee",
+        "type": "uint256"
+      }
+    ],
+    "name": "SettlePosition",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "contractSize",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "int256",
+            "name": "collateral",
+            "type": "int256"
+          },
+          {
+            "internalType": "int256",
+            "name": "longs",
+            "type": "int256"
+          },
+          {
+            "internalType": "int256",
+            "name": "shorts",
+            "type": "int256"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct IPoolInternal.Delta",
+        "name": "delta",
+        "type": "tuple"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "premium",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "takerFee",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "protocolFee",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "marketPrice",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "liquidityRate",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "currentTick",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "isBuy",
+        "type": "bool"
+      }
+    ],
+    "name": "Trade",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256[]",
+        "name": "ids",
+        "type": "uint256[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256[]",
+        "name": "values",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "TransferBatch",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "owner",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "receiver",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "srcTokenId",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "destTokenId",
+        "type": "uint256"
+      }
+    ],
+    "name": "TransferPosition",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "TransferSingle",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "owner",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "tokenId",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "collateral",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "longs",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "shorts",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "lastFeeRate",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "claimableFees",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "marketPrice",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "liquidityRate",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "currentTick",
+        "type": "uint256"
+      }
+    ],
+    "name": "Withdrawal",
+    "type": "event"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+      }
+    ],
+    "name": "accountsByToken",
+    "outputs": [
+      {
+        "internalType": "address[]",
+        "name": "",
+        "type": "address[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "size",
+        "type": "uint256"
+      }
+    ],
+    "name": "annihilate",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+      }
+    ],
+    "name": "balanceOf",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "accounts",
+        "type": "address[]"
+      },
+      {
+        "internalType": "uint256[]",
+        "name": "ids",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "balanceOfBatch",
+    "outputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "",
+        "type": "uint256[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32[]",
+        "name": "hashes",
+        "type": "bytes32[]"
+      }
+    ],
+    "name": "cancelTradeQuotes",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "owner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "operator",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "lower",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "upper",
+            "type": "uint256"
+          },
+          {
+            "internalType": "enum Position.OrderType",
+            "name": "orderType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "bool",
+            "name": "isCall",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint256",
+            "name": "strike",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct Position.Key",
+        "name": "p",
+        "type": "tuple"
+      }
+    ],
+    "name": "claim",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "owner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "operator",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "lower",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "upper",
+            "type": "uint256"
+          },
+          {
+            "internalType": "enum Position.OrderType",
+            "name": "orderType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "bool",
+            "name": "isCall",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint256",
+            "name": "strike",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct Position.Key",
+        "name": "p",
+        "type": "tuple"
+      },
+      {
+        "internalType": "uint256",
+        "name": "belowLower",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "belowUpper",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "size",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "maxSlippage",
+        "type": "uint256"
+      }
+    ],
+    "name": "deposit",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "owner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "operator",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "lower",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "upper",
+            "type": "uint256"
+          },
+          {
+            "internalType": "enum Position.OrderType",
+            "name": "orderType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "bool",
+            "name": "isCall",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint256",
+            "name": "strike",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct Position.Key",
+        "name": "p",
+        "type": "tuple"
+      },
+      {
+        "internalType": "uint256",
+        "name": "belowLower",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "belowUpper",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "size",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "maxSlippage",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bool",
+        "name": "isBidIfStrandedMarketPrice",
+        "type": "bool"
+      }
+    ],
+    "name": "deposit",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "holder",
+        "type": "address"
+      }
+    ],
+    "name": "exercise",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "provider",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "taker",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "price",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "size",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "isBuy",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint256",
+            "name": "category",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "categoryNonce",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "deadline",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IPoolInternal.TradeQuote",
+        "name": "tradeQuote",
+        "type": "tuple"
+      },
+      {
+        "internalType": "uint256",
+        "name": "size",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint8",
+        "name": "v",
+        "type": "uint8"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "r",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "s",
+        "type": "bytes32"
+      }
+    ],
+    "name": "fillQuote",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "owner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "operator",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "lower",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "upper",
+            "type": "uint256"
+          },
+          {
+            "internalType": "enum Position.OrderType",
+            "name": "orderType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "bool",
+            "name": "isCall",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint256",
+            "name": "strike",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct Position.Key",
+        "name": "p",
+        "type": "tuple"
+      }
+    ],
+    "name": "getClaimableFees",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "lower",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "upper",
+        "type": "uint256"
+      }
+    ],
+    "name": "getNearestTicksBelow",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "nearestBelowLower",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "nearestBelowUpper",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getPoolSettings",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "base",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "quote",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "baseOracle",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "quoteOracle",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "strike",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint64",
+        "name": "maturity",
+        "type": "uint64"
+      },
+      {
+        "internalType": "bool",
+        "name": "isCallPool",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "size",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bool",
+        "name": "isBuy",
+        "type": "bool"
+      }
+    ],
+    "name": "getTradeQuote",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "provider",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "category",
+        "type": "uint256"
+      }
+    ],
+    "name": "getTradeQuoteCategoryNonce",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "provider",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "category",
+        "type": "uint256"
+      }
+    ],
+    "name": "increaseTradeQuoteCategoryNonce",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      }
+    ],
+    "name": "isApprovedForAll",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "name",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256[]",
+        "name": "ids",
+        "type": "uint256[]"
+      },
+      {
+        "internalType": "uint256[]",
+        "name": "amounts",
+        "type": "uint256[]"
+      },
+      {
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
+      }
+    ],
+    "name": "safeBatchTransferFrom",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
+      }
+    ],
+    "name": "safeTransferFrom",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "internalType": "bool",
+        "name": "status",
+        "type": "bool"
+      }
+    ],
+    "name": "setApprovalForAll",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "holder",
+        "type": "address"
+      }
+    ],
+    "name": "settle",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "owner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "operator",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "lower",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "upper",
+            "type": "uint256"
+          },
+          {
+            "internalType": "enum Position.OrderType",
+            "name": "orderType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "bool",
+            "name": "isCall",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint256",
+            "name": "strike",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct Position.Key",
+        "name": "p",
+        "type": "tuple"
+      }
+    ],
+    "name": "settlePosition",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes4",
+        "name": "interfaceId",
+        "type": "bytes4"
+      }
+    ],
+    "name": "supportsInterface",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "tokenIn",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "tokenOut",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amountInMax",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amountOutMin",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "callee",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "allowanceTarget",
+            "type": "address"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "address",
+            "name": "refundAddress",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct IPoolInternal.SwapArgs",
+        "name": "s",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "owner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "operator",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "lower",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "upper",
+            "type": "uint256"
+          },
+          {
+            "internalType": "enum Position.OrderType",
+            "name": "orderType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "bool",
+            "name": "isCall",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint256",
+            "name": "strike",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct Position.Key",
+        "name": "p",
+        "type": "tuple"
+      },
+      {
+        "internalType": "uint256",
+        "name": "belowLower",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "belowUpper",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "size",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "maxSlippage",
+        "type": "uint256"
+      }
+    ],
+    "name": "swapAndDeposit",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "tokenIn",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "tokenOut",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amountInMax",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amountOutMin",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "callee",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "allowanceTarget",
+            "type": "address"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "address",
+            "name": "refundAddress",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct IPoolInternal.SwapArgs",
+        "name": "s",
+        "type": "tuple"
+      },
+      {
+        "internalType": "uint256",
+        "name": "size",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bool",
+        "name": "isBuy",
+        "type": "bool"
+      }
+    ],
+    "name": "swapAndTrade",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "totalPremium",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "int256",
+            "name": "collateral",
+            "type": "int256"
+          },
+          {
+            "internalType": "int256",
+            "name": "longs",
+            "type": "int256"
+          },
+          {
+            "internalType": "int256",
+            "name": "shorts",
+            "type": "int256"
+          }
+        ],
+        "internalType": "struct IPoolInternal.Delta",
+        "name": "delta",
+        "type": "tuple"
+      },
+      {
+        "internalType": "uint256",
+        "name": "swapOutAmount",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "size",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "premium",
+        "type": "uint256"
+      }
+    ],
+    "name": "takerFee",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "tokensByAccount",
+    "outputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "",
+        "type": "uint256[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+      }
+    ],
+    "name": "totalHolders",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+      }
+    ],
+    "name": "totalSupply",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "size",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bool",
+        "name": "isBuy",
+        "type": "bool"
+      }
+    ],
+    "name": "trade",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "totalPremium",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "int256",
+            "name": "collateral",
+            "type": "int256"
+          },
+          {
+            "internalType": "int256",
+            "name": "longs",
+            "type": "int256"
+          },
+          {
+            "internalType": "int256",
+            "name": "shorts",
+            "type": "int256"
+          }
+        ],
+        "internalType": "struct IPoolInternal.Delta",
+        "name": "delta",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "tokenIn",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "tokenOut",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amountInMax",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amountOutMin",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "callee",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "allowanceTarget",
+            "type": "address"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "address",
+            "name": "refundAddress",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct IPoolInternal.SwapArgs",
+        "name": "s",
+        "type": "tuple"
+      },
+      {
+        "internalType": "uint256",
+        "name": "size",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bool",
+        "name": "isBuy",
+        "type": "bool"
+      }
+    ],
+    "name": "tradeAndSwap",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "totalPremium",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "int256",
+            "name": "collateral",
+            "type": "int256"
+          },
+          {
+            "internalType": "int256",
+            "name": "longs",
+            "type": "int256"
+          },
+          {
+            "internalType": "int256",
+            "name": "shorts",
+            "type": "int256"
+          }
+        ],
+        "internalType": "struct IPoolInternal.Delta",
+        "name": "delta",
+        "type": "tuple"
+      },
+      {
+        "internalType": "uint256",
+        "name": "collateralReceived",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "tokenOutReceived",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "owner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "operator",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "lower",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "upper",
+            "type": "uint256"
+          },
+          {
+            "internalType": "enum Position.OrderType",
+            "name": "orderType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "bool",
+            "name": "isCall",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint256",
+            "name": "strike",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct Position.Key",
+        "name": "p",
+        "type": "tuple"
+      },
+      {
+        "internalType": "uint256",
+        "name": "size",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "maxSlippage",
+        "type": "uint256"
+      }
+    ],
+    "name": "withdraw",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

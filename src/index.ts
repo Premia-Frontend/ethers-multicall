@@ -16,7 +16,8 @@ export {
   getAddressForChainId,
   encodeCallData,
 };
-export default {
+
+const all = {
   Provider,
   setMulticallAddress,
   multicallAddresses,
@@ -24,3 +25,5 @@ export default {
   getAddressForChainId,
   encodeCallData,
 };
+
+export default all;
