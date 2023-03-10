@@ -1,6 +1,29 @@
-import { Contract } from './contract';
-import { Provider, setMulticallAddress } from './provider';
-import { ContractCall } from './types';
+import { ContractCall, encodeCallData } from './call';
+import {
+  getAddress,
+  getAddressForChainId,
+  multicallAddresses,
+  Provider,
+  setMulticallAddress,
+} from './provider';
 
-export { Contract, Provider, ContractCall, setMulticallAddress };
-export default { Contract, Provider, setMulticallAddress };
+export {
+  Provider,
+  ContractCall,
+  multicallAddresses,
+  setMulticallAddress,
+  getAddress,
+  getAddressForChainId,
+  encodeCallData,
+};
+
+const all = {
+  Provider,
+  setMulticallAddress,
+  multicallAddresses,
+  getAddress,
+  getAddressForChainId,
+  encodeCallData,
+};
+
+export default all;

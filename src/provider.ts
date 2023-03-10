@@ -1,27 +1,40 @@
 import { ethers } from 'ethers';
-import { all } from './call';
-import { getEthBalance } from './calls';
-import { ContractCall } from './types';
+import { all, ContractCall, getMulticallContract } from './call';
+import { Multicall } from './typechain';
 
 export class Provider {
-  private _provider: ethers.providers.Provider;
+  private _provider: ethers.Provider;
   private _multicallAddress: string;
+  private _multicallContract: Multicall;
 
-  constructor(provider: ethers.providers.Provider, chainId?: number) {
+  constructor(provider: ethers.Provider, chainId?: number) {
     this._provider = provider;
-    this._multicallAddress = getAddressForChainId(chainId);
+
+    if (!chainId) {
+      this.init();
+    } else {
+      this._multicallAddress = getAddressForChainId(chainId);
+      this._multicallContract = getMulticallContract(
+        provider,
+        this._multicallAddress,
+      );
+    }
   }
 
   public async init() {
     // Only required if `chainId` was not provided in constructor
     this._multicallAddress = await getAddress(this._provider);
+    this._multicallContract = getMulticallContract(
+      this._provider,
+      this._multicallAddress,
+    );
   }
 
   public getEthBalance(address: string) {
     if (!this._provider) {
       throw new Error('Provider should be initialized before use.');
     }
-    return getEthBalance(address, this._multicallAddress);
+    return this._multicallContract.getEthBalance(address);
   }
 
   public async all<T extends any[] = any[]>(calls: ContractCall[]) {
@@ -32,7 +45,7 @@ export class Provider {
   }
 }
 
-const multicallAddresses = {
+export const multicallAddresses = {
   1: '0xeefba1e63905ef1d7acba5a8513c70307c1ce441',
   3: '0xF24b01476a55d635118ca848fbc7Dab69d403be3',
   4: '0x42ad527de7d4e9d9d011ac45b31d8551f8fe9821',
@@ -53,11 +66,11 @@ export function setMulticallAddress(chainId: number, address: string) {
   multicallAddresses[chainId] = address;
 }
 
-function getAddressForChainId(chainId: number) {
+export function getAddressForChainId(chainId: number) {
   return multicallAddresses[chainId];
 }
 
-async function getAddress(provider: ethers.providers.Provider) {
+export async function getAddress(provider: ethers.Provider) {
   const { chainId } = await provider.getNetwork();
-  return getAddressForChainId(chainId);
+  return getAddressForChainId(Number(chainId));
 }

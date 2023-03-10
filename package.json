@@ -1,38 +1,40 @@
 {
   "name": "@premia/ethers-multicall",
-  "version": "0.2.7",
-  "description": "Make multiple Ethereum network requests in a single HTTP query. ethcall for ethers v5.",
+  "version": "1.0.0-beta.5",
+  "description": "Make multiple Ethereum network requests in a single HTTP query. ethcall for ethers v6.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "mocha -r @ts-tools/node \"test/**/*.test.ts\"",
+    "test": "yarn typechain:test && mocha -r @ts-tools/node \"test/**/*.test.ts\"",
     "build": "tsc",
     "lint": "tslint -c tslint.json '{src,test}/**/*.ts' --fix",
-    "prepublishOnly": "yarn build && yarn test && yarn lint"
+    "prepublishOnly": "yarn typechain && yarn build && yarn test && yarn lint",
+    "typechain": "typechain --target ethers-v6 --out-dir ./src/typechain \"./src/abi/*.json\"",
+    "typechain:test": "typechain --target ethers-v6 --out-dir ./test/typechain \"./test/abi/*.json\""
   },
   "keywords": [
     "ethers",
     "multicall"
   ],
-  "author": "Cavan Flynn <cavan.m.flynn@gmail.com>",
+  "author": "Premia <dev@premia.finance>",
   "license": "MIT",
   "devDependencies": {
     "@ts-tools/node": "^0.8.3",
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.5",
     "chai": "^4.2.0",
+    "ethers": "^6.1.0",
     "mocha": "^5.2.0",
     "tslint": "^5.12.0",
-    "typescript": "^4.2.4"
-  },
-  "dependencies": {
-    "ethers": "^5.0.0"
+    "typechain": "^8.1.1",
+    "typechain-target-ethers-v6": "^0.1.0",
+    "typescript": "^4.9.5"
   },
   "peerDependencies": {
-    "ethers": "^5.0.0"
+    "ethers": ">=6 <7"
   },
-  "directories": {
-    "test": "test"
+  "resolutions": {
+    "ethers": ">=6 <7"
   },
   "repository": {
     "type": "git",
